@@ -1,0 +1,10 @@
+{
+  "index": {
+    "componentPlaceholder": {
+      "sk": "my-component"
+    },
+    "usingComponents":{
+      "my-component": "/wxcomponents/my-component"
+    }
+  }
+}

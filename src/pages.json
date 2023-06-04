@@ -1,0 +1,89 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "uni-app"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "async/pkg-1",
+      "pages": []
+    },
+    {
+      "root": "async/pkg-unused",
+      "pages": []
+    },
+    {
+      "root": "async/pkg-use-in-async",
+      "pages": []
+    },
+    {
+      "root": "async/pkg-use-in-main-and-one-sub-pkg",
+      "pages": []
+    },
+    {
+      "root": "async/pkg-use-in-main-and-two-sub-pkgs",
+      "pages": []
+    },
+    {
+      "root": "async/pkg-use-in-main-call-async-js",
+      "pages": []
+    },
+    {
+      "root": "async/pkg-use-in-main-only",
+      "pages": []
+    },
+    {
+      "root": "async/pkg-use-in-one-sub-pkg",
+      "pages": []
+    },
+    {
+      "root": "async/pkg-use-in-two-sub-pkgs",
+      "pages": []
+    },
+    {
+      "root": "common-pkg",
+      "pages": []
+    },
+    {
+      "root": "pages_sub",
+      "pages": [
+        {
+          "path": "index/index",
+          "style": {
+            "navigationBarTitleText": "uni-app2"
+          }
+        },
+        {
+          "path": "index/index2",
+          "style": {
+            "navigationBarTitleText": "uni-app3"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages_sub2",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "uni-app2"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "usingComponents": {
+      "my-component": "wxcomponents/my-component"
+    }
+  }
+}
