@@ -39,6 +39,10 @@ export default {
    * @param {import('vue')} Vue
    */
   install(Vue) {
+    Vue.prototype.__safeRef_owner = function safeRefOwner() {
+      return this.$scope?.selectOwnerComponent()?.$vm;
+    };
+
     Vue.prototype.__safeRef_cb = function safeRefCb(key, value) {
       enableLog && console.log('### safeRefCb', key, value);
       const obj = this.__safeRef_map?.[key];
